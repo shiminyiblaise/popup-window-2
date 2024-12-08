@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    cursor: pointer;
+    background-color: rgb(176, 160,190);
+    border-radius: 1opx;
+}
+.btn{
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+.Popup{
+    background-color: white;
+    position: absolute;
+    width: 500PX;
+    text-align: center;
+    background-color: white;
+    transform: translate(-50%, -50%)scale(0.1);
+    padding-top: 0;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+
+}
+.openPopup{
+    transform: translate(10%, 10%)scale(1);
+    visibility: visible;
+    transition: transform 0.4s, top 0.4s;
+
+}
+.Popup img{
+    width: 300px;
+    border-radius:-40%;
+    margin-top : 40px;
+    align-items: center;
+    justify-content: center;
+}
+.Popup button{
+    background-color: black;
+    color: white;
+    width: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 400PX;
+
+
+
+}
+
+.Popupbox button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10;
+    width: 60%;
+} 
+
+.Popup p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.Popupbox{
+    justify-content: center;
+    align-items: center;
+} 
+
